@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&display=swap');
+
+body {
+    font-family: 'Cinzel', serif;
+    background: url('https://www.transparenttextures.com/patterns/old-map.png') repeat, #f5e1c3;
+    color: #3e2723;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border: 2px solid #a67c52;
+}
+
+h1 {
+    color: #5d4037;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #5d4037;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background: #a67c52;
+    margin: 25px 0;
+}
+
+.socials a {
+    display: inline-block;
+    margin: 0 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.socials a:hover {
+    transform: scale(1.2);
+}
+
+.socials img {
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.skills img {
+    width: 50px;
+    height: 50px;
+    margin: 8px;
+    filter: sepia(50%);
+    transition: filter 0.3s;
+}
+
+.skills img:hover {
+    filter: sepia(0%);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 12px 0;
+}
+
+ul li a {
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+
+ul li a:hover {
+    transform: scale(1.1);
+}
+
+a {
+    color: #8d6e63;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #5d4037;
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+        max-width: 100%;
+    }
+    .socials img, .skills img {
+        width: 35px;
+        height: 35px;
+    }
+    ul li {
+        font-size: 14px;
+    }
+}
